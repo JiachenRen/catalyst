@@ -22,6 +22,8 @@ part 'solvers+ranking.dart';
 
 part 'solvers+region.dart';
 
+part 'solvers+sketch.dart';
+
 Random _random = Random();
 
 String _choose(List<String> list) {

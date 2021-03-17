@@ -42,6 +42,7 @@ class LearningCatalyst with Diagnostics {
     QuestionTypes.priorityQuestion: PriorityQuestionSolver(),
     QuestionTypes.confidenceQuestion: ConfidenceQuestionSolver(),
     QuestionTypes.regionQuestion: RegionQuestionSolver(),
+    QuestionTypes.sketchQuestion: SketchQuestionSolver(),
   };
 
   Page page;

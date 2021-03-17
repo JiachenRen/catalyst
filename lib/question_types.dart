@@ -9,4 +9,5 @@ abstract class QuestionTypes {
   static const String longAnswerQuestion = 'long answer question';
   static const String confidenceQuestion = 'confidence question';
   static const String priorityQuestion = 'priority question';
+  static const String sketchQuestion = 'sketch question';
 }

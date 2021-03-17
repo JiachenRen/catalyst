@@ -21,6 +21,10 @@ class FreeResponseSolver extends Solver {
     "Now that you've completed the website reading, videos, and IKE": () =>
         "Sorry, but I don't have any questions.",
     "With respect to today's reading in the online textbook": () => 'All good.',
+    "do you need more practice?": () =>
+        'I think I have a good grasp of all topics',
+    "How did today's class go for you?": () =>
+        _choose(['Perfect', 'Good', 'Pretty good']),
   };
 
   @override
